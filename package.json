@@ -1,0 +1,18 @@
+{
+  "name": "reproduction-renovate",
+  "version": "0.0.1",
+  "description": "reproduction-renovate",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "wmwlodarczyk@gmail.com",
+  "devDependencies": {
+    "npm-force-resolutions": "0.0.10"
+  },
+  "dependencies": {
+    "react-bootstrap-table-next": "4.0.3"
+  },
+  "resolutions": {
+    "underscore": "1.13.0"
+  }
+}
